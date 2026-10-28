@@ -78,7 +78,7 @@
     </main>
   </section>
 
-  <div class="confirmation" id="confirmation"><div class="confirm-card"><div class="confirm-check">✓</div><h2>Prośba wysłana</h2><p>Termin jest wstępnie zablokowany do końca dnia. Właścicielka potwierdzi wizytę po sprawdzeniu wpłaty.</p><div class="booking-code" id="confirmCode"></div><div class="payment-summary" style="text-align:left"><span class="payment-icon">↗</span><div><b>Dane do wpłaty do uzupełnienia</b>Właścicielka poda numer i kwotę przed publikacją strony.<br>W tytule wpłaty wpisz numer rezerwacji.</div></div><button class="primary" onclick="closeConfirmation()">Gotowe</button></div></div>
+  <div class="confirmation" id="confirmation"><div class="confirm-card"><h2>Kod rezerwacji</h2><div class="booking-code" id="confirmCode" aria-live="polite"></div><button class="primary" onclick="closeConfirmation()">Gotowe</button></div></div>
   <script>
     const SUPABASE_URL='https://odqgoejynyfqksazibwk.supabase.co';
     const SUPABASE_PUBLISHABLE_KEY='sb_publishable_6wd7RGf40ilsLR04-GixbA_o1MhHV3u';
